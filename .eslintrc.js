@@ -1,5 +1,6 @@
 module.exports = {
     extends: [
+        "plugin:@next/next/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:jsx-a11y/recommended",
         "plugin:prettier/recommended",
@@ -12,7 +13,7 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": 0,
         "@typescript-eslint/no-non-null-assertion": 0,
         "@typescript-eslint/no-namespace": 0,
-        "@typescript-eslint/no-inferrable-types": [2, {ignoreParameters: true}],
+        "@typescript-eslint/no-inferrable-types": [2, { ignoreParameters: true }],
         "@typescript-eslint/explicit-module-boundary-types": 0,
         "object-shorthand": "error",
         "react/prop-types": "off",
