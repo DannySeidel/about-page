@@ -1,6 +1,5 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import Image from "next/image"
 import styled from "styled-components"
 import Divider from "./components/Divider"
 import ProfilePicture from "./components/ProfilePicture"
@@ -35,10 +34,10 @@ const Home: NextPage = () => {
                     </Copyright>
                     <MadeWith>
                         <p>Deployed with</p>
-                        <Logo src="/vercel.svg" alt="Vercel Logo" />
+                        <Logo href="https://vercel.com" src="/vercel.svg" alt="Vercel Logo" />
                         <Spacer />
                         <p>Made with</p>
-                        <Logo src="/nextjs.svg" alt="Next.js Logo" />
+                        <Logo href="https://nextjs.org" src="/nextjs.svg" alt="Next.js Logo" />
                     </MadeWith>
                 </Footer>
             </FooterContainer>

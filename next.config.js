@@ -4,7 +4,7 @@ const nextConfig = {
     swcMinify: true,
     distDir: "build",
     i18n: {
-        locales: ["en", "de"],
+        locales: ["en"],
         defaultLocale: "en",
     },
 }
