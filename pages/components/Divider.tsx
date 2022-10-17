@@ -12,7 +12,7 @@ export default Divider
 
 const StyledDivider = styled.div`
     width: 97%;
-    height: 2px;
+    height: 1px;
     opacity: 0.5;
     background: black;
     @media (prefers-color-scheme: dark) {
@@ -23,5 +23,4 @@ const StyledDivider = styled.div`
 const Container = styled.div`
     display: flex;
     justify-content: center;
-    margin: 1rem 0;
 `

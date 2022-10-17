@@ -4,6 +4,7 @@ import Image from "next/image"
 import styled from "styled-components"
 import Divider from "./components/Divider"
 import ProfilePicture from "./components/ProfilePicture"
+import Logo from "./components/Logo"
 
 const Home: NextPage = () => {
     return (
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
 
             <Container>
                 <ProfilePicture />
-                <h4>Dual Computer Science Student</h4>
+                <h2>Dual Computer Science Student</h2>
             </Container>
 
             <FooterContainer>
@@ -34,14 +35,10 @@ const Home: NextPage = () => {
                     </Copyright>
                     <MadeWith>
                         <p>Deployed with</p>
-                        <StyledDiv>
-                            <Logo src="/vercel.svg" alt="Vercel Logo" width={144} height={32} />
-                        </StyledDiv>
+                        <Logo src="/vercel.svg" alt="Vercel Logo" />
                         <Spacer />
                         <p>Made with</p>
-                        <StyledDiv>
-                            <Logo src="/nextjs.svg" alt="Next.js Logo" width={144} height={32} />
-                        </StyledDiv>
+                        <Logo src="/nextjs.svg" alt="Next.js Logo" />
                     </MadeWith>
                 </Footer>
             </FooterContainer>
@@ -85,26 +82,15 @@ const FooterContainer = styled.div`
 `
 
 const Copyright = styled.div`
-    margin: 0.5em 2em 1em;
+    margin: 1em 2em;
     text-align: left;
 `
 
 const MadeWith = styled.div`
-    margin: 0.5em 2em 1em;
+    margin: 1em 2em;
     text-align: right;
     display: flex;
     flex-direction: row;
-`
-
-const Logo = styled(Image)`
-    filter: invert(0);
-    @media (prefers-color-scheme: dark) {
-        filter: invert(1);
-    }
-`
-
-const StyledDiv = styled.div`
-    margin: auto 0.5em;
 `
 
 const Spacer = styled.div`
