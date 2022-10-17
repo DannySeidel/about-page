@@ -8,10 +8,10 @@
     ],
     "scripts": {
         "dev": "next dev",
+        "prebuild": "rm -rf build",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint",
-        "prebuild": "rm -rf build && yarn lint"
+        "lint": "next lint"
     },
     "dependencies": {
         "next": "12.3.1"

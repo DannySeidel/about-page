@@ -2,7 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import styled from "styled-components"
 import ProfilePicture from "./components/ProfilePicture"
-import Footer from "./components/Footer"
+import FooterWrapper from "./components/FooterWrapper"
 
 const Home: NextPage = () => {
     return (
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                 <h2>Dual Computer Science Student</h2>
             </Container>
 
-            <Footer />
+            <FooterWrapper />
         </>
     )
 }
