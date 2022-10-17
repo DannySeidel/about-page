@@ -5,9 +5,11 @@ interface StyledBoxProps {
     children?: ReactNode
 }
 
-export const RoundedBox = ({ children }: StyledBoxProps) => {
+const RoundedBox = ({ children }: StyledBoxProps) => {
     return <StyledBox>{children}</StyledBox>
 }
+
+export default RoundedBox
 
 const StyledBox = styled.div`
     border-radius: 20px;

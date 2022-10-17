@@ -1,9 +1,9 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import Image from "next/image"
-import { ProfilePicture } from "./components/ProfilePicture"
 import styled from "styled-components"
-import { Divider } from "./components/Divider"
+import Divider from "./components/Divider"
+import ProfilePicture from "./components/ProfilePicture"
 
 const Home: NextPage = () => {
     return (
