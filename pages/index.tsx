@@ -35,12 +35,12 @@ const Home: NextPage = () => {
                     <MadeWith>
                         <p>Deployed with</p>
                         <StyledDiv>
-                            <Logo src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+                            <Logo src="/vercel.svg" alt="Vercel Logo" width={144} height={32} />
                         </StyledDiv>
                         <Spacer />
                         <p>Made with</p>
                         <StyledDiv>
-                            <Logo src="/nextjs.svg" alt="Next.js Logo" width={72} height={16} />
+                            <Logo src="/nextjs.svg" alt="Next.js Logo" width={144} height={32} />
                         </StyledDiv>
                     </MadeWith>
                 </Footer>
