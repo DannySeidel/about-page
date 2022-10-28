@@ -15,6 +15,7 @@ module.exports = {
         "@typescript-eslint/no-namespace": 0,
         "@typescript-eslint/no-inferrable-types": [2, { ignoreParameters: true }],
         "@typescript-eslint/explicit-module-boundary-types": 0,
+        "prettier/prettier": "error",
         "object-shorthand": "error",
         "react/prop-types": "off",
     },
