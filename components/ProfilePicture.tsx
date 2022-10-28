@@ -1,15 +1,13 @@
 import Image from "next/image"
 import styled from "styled-components"
 
-const ProfilePicture = () => {
+export const ProfilePicture = () => {
     return (
         <ImageContainer>
             <Image src="/me.webp" alt="Picture of Me" width={750} height={750} />
         </ImageContainer>
     )
 }
-
-export default ProfilePicture
 
 const ImageContainer = styled.div`
     border-radius: 50%;

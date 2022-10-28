@@ -7,7 +7,7 @@ interface LogoProps {
     alt: string
 }
 
-const Logo = ({ href, src, alt }: LogoProps) => {
+export const Logo = ({ href, src, alt }: LogoProps) => {
     return (
         <StyledDiv>
             <a href={href}>
@@ -18,8 +18,6 @@ const Logo = ({ href, src, alt }: LogoProps) => {
         </StyledDiv>
     )
 }
-
-export default Logo
 
 const StyledImage = styled(Image)`
     filter: invert(0);

@@ -1,8 +1,8 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import styled from "styled-components"
-import ProfilePicture from "./components/ProfilePicture"
-import FooterWrapper from "./components/FooterWrapper"
+import { ProfilePicture } from "../components/ProfilePicture"
+import { FooterWrapper } from "../components/FooterWrapper"
 
 const Home: NextPage = () => {
     return (

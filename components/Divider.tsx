@@ -1,14 +1,12 @@
 import styled from "styled-components"
 
-const Divider = () => {
+export const Divider = () => {
     return (
         <Container>
             <StyledDivider />
         </Container>
     )
 }
-
-export default Divider
 
 const StyledDivider = styled.div`
     width: 97%;

@@ -1,8 +1,8 @@
 import styled from "styled-components"
-import Logo from "./Logo"
-import Divider from "./Divider"
+import { Logo } from "./Logo"
+import { Divider } from "./Divider"
 
-const FooterWrapper = () => {
+export const FooterWrapper = () => {
     return (
         <FooterContainer>
             <Divider />
@@ -21,8 +21,6 @@ const FooterWrapper = () => {
         </FooterContainer>
     )
 }
-
-export default FooterWrapper
 
 const Footer = styled.footer`
     margin: 0 !important;
