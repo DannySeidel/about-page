@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const ProfilePicture = () => {
     return (
         <ImageContainer>
-            <Image src="/me.webp" alt="Picture of Me" width={750} height={750} />
+            <Image src="/me.webp" alt="Picture of Me" width={320} height={320} />
         </ImageContainer>
     )
 }
@@ -12,6 +12,4 @@ export const ProfilePicture = () => {
 const ImageContainer = styled.div`
     border-radius: 50%;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
 `

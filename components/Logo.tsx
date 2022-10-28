@@ -12,7 +12,7 @@ export const Logo = ({ href, src, alt }: LogoProps) => {
         <StyledDiv>
             <a href={href}>
                 <span>
-                    <StyledImage src={src} alt={alt} width={144} height={32} />
+                    <StyledImage src={src} alt={alt} width={72} height={16} />
                 </span>
             </a>
         </StyledDiv>
@@ -28,6 +28,4 @@ const StyledImage = styled(Image)`
 
 const StyledDiv = styled.div`
     margin: auto 0.5em;
-    width: 72px;
-    height: 16px;
 `
