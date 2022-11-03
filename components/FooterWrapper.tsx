@@ -9,13 +9,20 @@ export const FooterWrapper = () => {
             <Footer>
                 <Copyright>
                     <p>Copyright by © 2022 Danny Seidel</p>
+                    <Logo
+                        href="https://github.com/DannySeidel/about-page"
+                        src="/github.svg"
+                        alt="GitHub Logo"
+                        width={20}
+                        height={20}
+                    />
                 </Copyright>
                 <MadeWith>
                     <p>Deployed with</p>
-                    <Logo href="https://vercel.com" src="/vercel.svg" alt="Vercel Logo" />
+                    <Logo href="https://vercel.com" src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
                     <Spacer />
                     <p>Made with</p>
-                    <Logo href="https://nextjs.org" src="/nextjs.svg" alt="Next.js Logo" />
+                    <Logo href="https://nextjs.org" src="/nextjs.svg" alt="Next.js Logo" width={72} height={16} />
                 </MadeWith>
             </Footer>
         </FooterContainer>
@@ -37,6 +44,8 @@ const FooterContainer = styled.div`
 const Copyright = styled.div`
     margin: 1em 2em;
     text-align: left;
+    display: flex;
+    flex-direction: row;
 `
 
 const MadeWith = styled.div`

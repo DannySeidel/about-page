@@ -5,14 +5,16 @@ interface LogoProps {
     href?: string
     src: string
     alt: string
+    width: number
+    height: number
 }
 
-export const Logo = ({ href, src, alt }: LogoProps) => {
+export const Logo = ({ href, src, alt, width, height }: LogoProps) => {
     return (
         <StyledDiv>
             <a href={href}>
                 <span>
-                    <StyledImage src={src} alt={alt} width={72} height={16} />
+                    <StyledImage src={src} alt={alt} width={width} height={height} />
                 </span>
             </a>
         </StyledDiv>
