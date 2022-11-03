@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
+import Image from "next/image"
 import Head from "next/head"
 import styled from "styled-components"
-import { ProfilePicture } from "../components/ProfilePicture"
 import { FooterWrapper } from "../components/FooterWrapper"
 
 const Home: NextPage = () => {
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
             </Title>
 
             <Container>
-                <ProfilePicture />
+                <Image src="/me.webp" alt="Picture of Me" width={320} height={320} />
                 <h2>Dual Computer Science Student</h2>
             </Container>
 
