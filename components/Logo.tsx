@@ -30,4 +30,7 @@ const StyledImage = styled(Image)`
 
 const StyledDiv = styled.div`
     margin: auto 0.5em;
+    @media (max-width: 790px) {
+        margin: 0.5em;
+    }
 `
