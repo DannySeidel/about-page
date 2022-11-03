@@ -10,7 +10,7 @@ const Home: NextPage = () => {
             <Head>
                 <title>About Me</title>
                 <meta lang="en" name="description" content="About Me Page" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png" />
             </Head>
 
             <Title>
